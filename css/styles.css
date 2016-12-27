@@ -1,0 +1,179 @@
+
+.wrapper{
+  /*background-image: url(../images/fon.jpg);*/
+  background: url(../images/fon.jpg);
+  background-size: 1600px 900px;
+  background-repeat: no-repeat;
+}
+
+.menu{
+  height: 30px;
+  background-color: #085596;
+  position: relative;
+}
+
+.list{
+  position: absolute;
+  right: 350px;
+}
+
+.list li {
+  float: left;
+  padding-right: 20px;
+}
+
+
+.list li a{
+  text-decoration: none;
+  color: #60b5ed;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+.list li a:hover{
+  color: white;
+  background-color: #4eabda;
+}
+
+.list2{
+  position: absolute;
+  right: 5px;
+}
+
+.list2 li{
+  float: left;
+  
+}
+
+.list2 li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+}
+
+.list2 li a:hover{
+  background-color: #4eabda;
+}
+
+.list2 img{
+  margin: 4px;
+}
+
+.modal{
+  position: relative;
+  height: 500px;
+  width: 460px;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0px auto;
+  margin-top: 200px;
+  bottom: 50px;
+  
+}
+
+.modal .reg input{
+  height: 28px;
+  width: 280px;
+  background-color: black;
+  color: white;
+  border: none;
+
+}
+
+.modal .reg input:focus{
+  background-color: #1b5288;
+}
+
+.modal form span{
+  margin-left: 3px;
+  color: white;
+  font-size: 14px;
+}
+
+.mHead{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.facebook{
+  background-image: url('../images/facebook.jpg');
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 276px;
+  margin: 0px auto;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+
+.OU{
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reg{
+  height: 28px;
+  width: 280px;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+.regCh{
+  height: 38px;
+  width: 280px;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+.regB{
+  height: 28px;
+  width: 160px;
+  margin: 0px auto;
+}
+
+.regB input{
+  height: 28px;
+  width: 160px;
+  background-color: #4aa5d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.textFoo{
+	width: 290px;
+	color: white;
+	font-size: 10px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 15px;
+	text-align: center;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  padding-left: 10px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  padding-left: 10px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  padding-left: 10px;
+}
